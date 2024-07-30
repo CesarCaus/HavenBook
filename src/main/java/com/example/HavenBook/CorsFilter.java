@@ -1,6 +1,7 @@
 package com.example.HavenBook;
 
 import jakarta.servlet.*;
+import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 
@@ -11,13 +12,25 @@ public class CorsFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
+        HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) res;
-        response.setHeader("Access-Control-Allow-Origin", "http://localhost:4200"); // Permitir apenas requisições do localhost:4200
+
+        String origin = request.getHeader("Origin");
+        response.setHeader("Access-Control-Allow-Origin", getAllowedOrigin(origin));
         response.setHeader("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
         response.setHeader("Access-Control-Allow-Headers", "*");
         response.setHeader("Access-Control-Allow-Credentials", "true");
         response.setHeader("Access-Control-Max-Age", "3600");
+
         chain.doFilter(req, res);
+    }
+
+    private String getAllowedOrigin(String origin) {
+        // Add the allowed origins here
+        if ("http://localhost:4200".equals(origin) || "https://havenbook.netlify.app".equals(origin)) {
+            return origin;
+        }
+        return "null"; // This will block requests from origins not in the list
     }
 
     @Override
