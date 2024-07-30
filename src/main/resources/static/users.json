@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "username": "johndoe",
+    "password": "password123",
+    "department": "Administrador"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "username": "janesmith",
+    "password": "password123",
+    "department": "Gestor"
+  },
+  {
+    "id": 3,
+    "name": "Alice Johnson",
+    "username": "alicejohnson",
+    "password": "password123",
+    "department": "Gestor"
+  },
+  {
+    "id": 4,
+    "name": "Bob Brown",
+    "username": "bobbrown",
+    "password": "password123",
+    "department": "Recursos Humanos"
+  },
+  {
+    "id": 5,
+    "name": "Charlie Davis",
+    "username": "charliedavis",
+    "password": "password123",
+    "department": "Financeiro"
+  },
+  {
+    "id": 6,
+    "name": "Diana Evans",
+    "username": "dianaevans",
+    "password": "password123",
+    "department": "Financeiro"
+  },
+  {
+    "id": 7,
+    "name": "Eve Wilson",
+    "username": "evewilson",
+    "password": "password123",
+    "department": "Tecnologia da Informação"
+  },
+  {
+    "id": 8,
+    "name": "Frank Moore",
+    "username": "frankmoore",
+    "password": "password123",
+    "department": "Tecnologia da Informação"
+  },
+  {
+    "id": 9,
+    "name": "Grace Lee",
+    "username": "gracelee",
+    "password": "password123",
+    "department": "Tecnologia da Informação"
+  },
+  {
+    "id": 10,
+    "name": "Hank White",
+    "username": "hankwhite",
+    "password": "password123",
+    "department": "Tecnologia da Informação"
+  }
+]

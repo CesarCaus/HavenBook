@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "title": "Dom Casmurro",
+    "author": "Machado de Assis",
+    "publicationDate": "1899-02-02T00:00:00.000Z",
+    "description": "Um dos romances mais famosos de Machado de Assis, narrando a história de Bentinho e Capitu.",
+    "genres": ["Romance", "Literatura Brasileira"],
+    "numberOfPages": 256,
+    "value": 19.90
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "publicationDate": "1949-06-08T00:00:00.000Z",
+    "description": "Um clássico distópico que retrata uma sociedade totalitária e vigilante.",
+    "genres": ["Ficção Científica", "Distopia"],
+    "numberOfPages": 328,
+    "value": 25.00
+  },
+  {
+    "id": 3,
+    "title": "O Alquimista",
+    "author": "Paulo Coelho",
+    "publicationDate": "1988-05-01T00:00:00.000Z",
+    "description": "Uma fábula sobre seguir seus sonhos e encontrar seu destino.",
+    "genres": ["Ficção", "Autoajuda"],
+    "numberOfPages": 208,
+    "value": 21.50
+  },
+  {
+    "id": 4,
+    "title": "A Revolução dos Bichos",
+    "author": "George Orwell",
+    "publicationDate": "1945-08-17T00:00:00.000Z",
+    "description": "Uma sátira política sobre a Revolução Russa e o regime soviético.",
+    "genres": ["Fábula", "Política"],
+    "numberOfPages": 112,
+    "value": 15.00
+  },
+  {
+    "id": 5,
+    "title": "O Pequeno Príncipe",
+    "author": "Antoine de Saint-Exupéry",
+    "publicationDate": "1943-04-06T00:00:00.000Z",
+    "description": "Um clássico infantil que aborda temas profundos sobre a vida e a humanidade.",
+    "genres": ["Infantil", "Fábula"],
+    "numberOfPages": 96,
+    "value": 18.00
+  },
+  {
+  "id": 6,
+  "title": "Crime e Castigo",
+  "author": "Fyodor Dostoevsky",
+  "publicationDate": "1866-01-01T00:00:00.000Z",
+  "description": "Uma exploração profunda da mente criminosa e as ramificações morais de um ato de assassinato.",
+  "genres": ["Ficção", "Clássico"],
+  "numberOfPages": 671,
+  "value": 29.90
+  },
+  {
+  "id": 7,
+  "title": "O Morro dos Ventos Uivantes",
+  "author": "Emily Bronte",
+  "publicationDate": "1847-12-01T00:00:00.000Z",
+  "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+  "genres": ["Romance", "Clássico"],
+  "numberOfPages": 416,
+  "value": 24.00
+  },
+  {
+    "id": 8,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "publicationDate": "1851-10-18T00:00:00.000Z",
+    "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+    "genres": ["Aventura", "Clássico"],
+    "numberOfPages": 635,
+    "value": 27.50
+  },
+  {
+    "id": 9,
+    "title": "1984",
+    "author": "George Orwell",
+    "publicationDate": "1949-06-08T00:00:00.000Z",
+    "description": "Uma distopia sobre um futuro totalitário.",
+    "genres": ["Distopia", "Ficção Política"],
+    "numberOfPages": 328,
+    "value": 22.90
+  },
+  {
+    "id": 10,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "publicationDate": "1813-01-28T00:00:00.000Z",
+    "description": "Um romance clássico sobre amor e sociedade na Inglaterra do século XIX.",
+    "genres": ["Romance", "Clássico"],
+    "numberOfPages": 279,
+    "value": 19.00
+  },
+  {
+    "id": 11,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "publicationDate": "1925-04-10T00:00:00.000Z",
+    "description": "Um retrato da era do jazz nos Estados Unidos, narrado através dos olhos do milionário Jay Gatsby.",
+    "genres": ["Clássico", "Tragédia"],
+    "numberOfPages": 218,
+    "value": 21.00
+  },
+  {
+    "id": 12,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "publicationDate": "1997-06-26T00:00:00.000Z",
+    "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+    "genres": ["Fantasia"],
+    "numberOfPages": 223,
+    "value": 22.00
+  },
+  {
+    "id": 13,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "publicationDate": "1951-07-16T00:00:00.000Z",
+    "description": "Um clássico da literatura americana que narra a jornada de Holden Caulfield pela cidade de Nova York.",
+    "genres": ["Ficção Literária"],
+    "numberOfPages": 277,
+    "value": 19.50
+  },
+  {
+    "id": 14,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1937-09-21T00:00:00.000Z",
+    "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+    "genres": ["Fantasia"],
+    "numberOfPages": 310,
+    "value": 20.50
+  },
+  {
+    "id": 15,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "publicationDate": "1932-01-01T00:00:00.000Z",
+    "description": "Uma distopia futurista que explora uma sociedade controlada pelo governo e a tecnologia.",
+    "genres": ["Distopia", "Ficção Científica"],
+    "numberOfPages": 311,
+    "value": 18.50
+  },
+  {
+    "id": 16,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "publicationDate": "1851-10-18T00:00:00.000Z",
+    "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+    "genres": ["Aventura", "Clássico"],
+    "numberOfPages": 635,
+    "value": 27.50
+  },
+  {
+    "id": 17,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "publicationDate": "1869-01-01T00:00:00.000Z",
+    "description": "Um épico que narra a história de cinco famílias aristocráticas russas durante as Guerras Napoleônicas.",
+    "genres": ["Ficção Histórica", "Épico"],
+    "numberOfPages": 1225,
+    "value": 35.00
+  },
+  {
+    "id": 18,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "publicationDate": "1954-10-20T00:00:00.000Z",
+    "description": "Uma trilogia de fantasia épica que segue a jornada de Frodo Bolseiro para destruir o Um Anel.",
+    "genres": ["Fantasia"],
+    "numberOfPages": 1178,
+    "value": 38.00
+  },
+  {
+    "id": 19,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "publicationDate": "1866-01-01T00:00:00.000Z",
+    "description": "Um estudo psicológico de um estudante atormentado que comete um assassinato.",
+    "genres": ["Romance Filosófico", "Romance Psicológico"],
+    "numberOfPages": 551,
+    "value": 27.00
+  },
+  {
+    "id": 20,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "publicationDate": "1877-01-01T00:00:00.000Z",
+    "description": "Um retrato da sociedade russa aristocrática e um estudo sobre adultério e suas consequências.",
+    "genres": ["Ficção Realista", "Romance"],
+    "numberOfPages": 864,
+    "value": 32.00
+  },
+  {
+    "id": 21,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "publicationDate": "0008-01-01T00:00:00.000Z",
+    "description": "Um poema épico grego que narra a jornada de Odisseu para voltar para casa após a Guerra de Troia.",
+    "genres": ["Épico"],
+    "numberOfPages": 374,
+    "value": 18.00
+  },
+  {
+    "id": 22,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "publicationDate": "1880-01-01T00:00:00.000Z",
+    "description": "Um complexo romance que explora questões morais e espirituais através da história de três irmãos.",
+    "genres": ["Romance Filosófico", "Tragédia"],
+    "numberOfPages": 796,
+    "value": 31.00
+  },
+  {
+    "id": 23,
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "publicationDate": "1818-01-01T00:00:00.000Z",
+    "description": "Um romance gótico que conta a história do cientista Victor Frankenstein e sua criatura.",
+    "genres": ["Ficção Gótica", "Ficção Científica"],
+    "numberOfPages": 280,
+    "value": 19.00
+  },
+  {
+    "id": 24,
+    "title": "The Adventures of Huckleberry Finn",
+    "author": "Mark Twain",
+    "publicationDate": "1884-12-10T00:00:00.000Z",
+    "description": "As aventuras de Huck Finn, um garoto do Mississippi, e Jim, um fugitivo escravo.",
+    "genres": ["Aventura", "Sátira"],
+    "numberOfPages": 366,
+    "value": 20.00
+  },
+  {
+    "id": 25,
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "publicationDate": "1847-10-16T00:00:00.000Z",
+    "description": "A história de uma jovem órfã que se torna governanta e se apaixona pelo enigmático Sr. Rochester.",
+    "genres": ["Ficção Gótica", "Romance"],
+    "numberOfPages": 532,
+    "value": 28.00
+  }
+]

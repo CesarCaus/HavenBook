@@ -1,0 +1,20 @@
+[
+  { "id": 1, "name": "Machado de Assis" },
+  { "id": 2, "name": "George Orwell" },
+  { "id": 3, "name": "Paulo Coelho" },
+  { "id": 4, "name": "Antoine de Saint-Exupéry" },
+  { "id": 5, "name": "Fyodor Dostoevsky" },
+  { "id": 6, "name": "Emily Bronte" },
+  { "id": 7, "name": "Herman Melville" },
+  { "id": 8, "name": "Jane Austen" },
+  { "id": 9, "name": "F. Scott Fitzgerald" },
+  { "id": 10, "name": "J.K. Rowling" },
+  { "id": 11, "name": "J.D. Salinger" },
+  { "id": 12, "name": "J.R.R. Tolkien" },
+  { "id": 13, "name": "Aldous Huxley" },
+  { "id": 14, "name": "Leo Tolstoy" },
+  { "id": 15, "name": "Homer" },
+  { "id": 16, "name": "Mary Shelley" },
+  { "id": 17, "name": "Mark Twain" },
+  { "id": 18, "name": "Charlotte Brontë" }
+]
