@@ -7,10 +7,9 @@ import lombok.Setter;
 
 @Setter
 @Getter
-@AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor(force = true)
 public class Author extends Person {
     public Author(String name) {
         super(name);
     }
-}
+}   
