@@ -26,11 +26,10 @@ public class CorsFilter implements Filter {
     }
 
     private String getAllowedOrigin(String origin) {
-        // Add the allowed origins here
         if ("http://localhost:4200".equals(origin) || "https://havenbook.netlify.app".equals(origin)) {
             return origin;
         }
-        return "null"; // This will block requests from origins not in the list
+        return "null";
     }
 
     @Override

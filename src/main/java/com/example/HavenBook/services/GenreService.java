@@ -52,8 +52,8 @@ public class GenreService implements IGenreService {
             Resource resource = resourceLoader.getResource("classpath:" + relativePath);
             return resource.getFile().getAbsolutePath();
         } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Error obtaining absolute path", e);
-            throw new RuntimeException("Error obtaining absolute path", e);
+            LOGGER.log(Level.SEVERE, "Erro ao obter o caminho absoluto", e);
+            throw new RuntimeException("Erro ao obter o caminho absoluto", e);
         }
     }
 
@@ -66,8 +66,8 @@ public class GenreService implements IGenreService {
             }
             return mapper.readValue(file, new TypeReference<List<Genre>>() {});
         } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Error reading JSON file", e);
-            throw new RuntimeException("Error reading JSON file", e);
+            LOGGER.log(Level.SEVERE, "Erro ao ler o arquivo JSON", e);
+            throw new RuntimeException("Erro ao ler o arquivo JSON", e);
         }
     }
 
@@ -104,8 +104,8 @@ public class GenreService implements IGenreService {
             File file = new File(absoluteJsonFilePath);
             mapper.writeValue(file, genres);
         } catch (IOException e) {
-            LOGGER.log(Level.SEVERE, "Error saving to JSON file", e);
-            throw new RuntimeException("Error saving to JSON file", e);
+            LOGGER.log(Level.SEVERE, "Erro ao salvar o arquivo JSON", e);
+            throw new RuntimeException("Erro ao salvar o arquivo JSON", e);
         }
     }
 }
