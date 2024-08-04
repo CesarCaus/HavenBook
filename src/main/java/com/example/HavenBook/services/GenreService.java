@@ -19,6 +19,10 @@ import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Serviço para gerenciar os gêneros, incluindo operações de leitura, adição, atualização e exclusão de gêneros
+ * armazenados em um arquivo JSON.
+ */
 @Service
 @PropertySource("classpath:application.properties")
 public class GenreService implements IGenreService {
@@ -31,12 +35,21 @@ public class GenreService implements IGenreService {
     private List<Genre> genres;
     private int nextId;
 
+    /**
+     * Construtor para o serviço {@code GenreService}.
+     *
+     * @param resourceLoader O carregador de recursos para obter o caminho absoluto do arquivo JSON.
+     * @param jsonFilePath   O caminho relativo para o arquivo JSON que contém os gêneros.
+     */
     @Autowired
     public GenreService(ResourceLoader resourceLoader, @Value("static/genres.json") String jsonFilePath) {
         this.resourceLoader = resourceLoader;
         this.absoluteJsonFilePath = getAbsolutePath(jsonFilePath);
     }
 
+    /**
+     * Inicializa o serviço carregando os gêneros do arquivo JSON e definindo o próximo ID disponível.
+     */
     @PostConstruct
     public void init() {
         this.genres = getGenresFromJson();
@@ -47,6 +60,13 @@ public class GenreService implements IGenreService {
         }
     }
 
+    /**
+     * Obtém o caminho absoluto do arquivo JSON a partir do caminho relativo fornecido.
+     *
+     * @param relativePath O caminho relativo do arquivo JSON.
+     * @return O caminho absoluto do arquivo JSON.
+     * @throws RuntimeException Se ocorrer um erro ao obter o caminho absoluto.
+     */
     private String getAbsolutePath(String relativePath) {
         try {
             Resource resource = resourceLoader.getResource("classpath:" + relativePath);
@@ -57,6 +77,12 @@ public class GenreService implements IGenreService {
         }
     }
 
+    /**
+     * Carrega a lista de gêneros do arquivo JSON.
+     *
+     * @return Uma lista de gêneros carregados do arquivo JSON.
+     * @throws RuntimeException Se ocorrer um erro ao ler o arquivo JSON.
+     */
     public List<Genre> getGenresFromJson() {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -71,17 +97,34 @@ public class GenreService implements IGenreService {
         }
     }
 
+    /**
+     * Obtém um gênero pelo ID.
+     *
+     * @param id O ID do gênero a ser recuperado.
+     * @return O gênero correspondente ao ID fornecido ou {@code null} se não for encontrado.
+     */
     public Genre getGenreById(int id) {
         Optional<Genre> genre = genres.stream().filter(g -> g.getId() == id).findFirst();
         return genre.orElse(null);
     }
 
+    /**
+     * Adiciona um novo gênero à lista e salva os gêneros no arquivo JSON.
+     *
+     * @param newGenre O novo gênero a ser adicionado.
+     */
     public synchronized void addGenre(Genre newGenre) {
         newGenre.setId(nextId++);
         genres.add(newGenre);
         saveGenresToJson();
     }
 
+    /**
+     * Atualiza um gênero existente com base no ID fornecido e salva os gêneros no arquivo JSON.
+     *
+     * @param id            O ID do gênero a ser atualizado.
+     * @param updatedGenre  O gênero atualizado.
+     */
     public synchronized void updateGenre(int id, Genre updatedGenre) {
         for (int i = 0; i < genres.size(); i++) {
             if (genres.get(i).getId() == id) {
@@ -93,11 +136,21 @@ public class GenreService implements IGenreService {
         }
     }
 
+    /**
+     * Remove um gênero com base no ID fornecido e salva os gêneros no arquivo JSON.
+     *
+     * @param id O ID do gênero a ser removido.
+     */
     public synchronized void deleteGenre(int id) {
         genres.removeIf(genre -> genre.getId() == id);
         saveGenresToJson();
     }
 
+    /**
+     * Salva a lista atual de gêneros no arquivo JSON.
+     *
+     * @throws RuntimeException Se ocorrer um erro ao salvar o arquivo JSON.
+     */
     private synchronized void saveGenresToJson() {
         try {
             ObjectMapper mapper = new ObjectMapper();

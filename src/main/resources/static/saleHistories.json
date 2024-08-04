@@ -1,0 +1,1792 @@
+[
+  {
+    "id": 1,
+    "saleDate": "2024-08-01",
+    "totalValue": 39.80,
+    "books": [
+      {
+        "id": 1,
+        "title": "Dom Casmurro",
+        "author": "Machado de Assis",
+        "publicationDate": "1899-02-02T00:00:00.000Z",
+        "description": "Um dos romances mais famosos de Machado de Assis, narrando a história de Bentinho e Capitu.",
+        "genres": ["Romance", "Literatura Brasileira"],
+        "numberOfPages": 256,
+        "value": 19.90
+      },
+      {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Um clássico distópico que retrata uma sociedade totalitária e vigilante.",
+        "genres": ["Ficção Científica", "Distopia"],
+        "numberOfPages": 328,
+        "value": 25.00
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "saleDate": "2024-08-02",
+    "totalValue": 43.00,
+    "books": [
+      {
+        "id": 3,
+        "title": "O Alquimista",
+        "author": "Paulo Coelho",
+        "publicationDate": "1988-05-01T00:00:00.000Z",
+        "description": "Uma fábula sobre seguir seus sonhos e encontrar seu destino.",
+        "genres": ["Ficção", "Autoajuda"],
+        "numberOfPages": 208,
+        "value": 21.50
+      },
+      {
+        "id": 4,
+        "title": "A Revolução dos Bichos",
+        "author": "George Orwell",
+        "publicationDate": "1945-08-17T00:00:00.000Z",
+        "description": "Uma sátira política sobre a Revolução Russa e o regime soviético.",
+        "genres": ["Fábula", "Política"],
+        "numberOfPages": 112,
+        "value": 15.00
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "saleDate": "2024-08-03",
+    "totalValue": 37.50,
+    "books": [
+      {
+        "id": 5,
+        "title": "O Pequeno Príncipe",
+        "author": "Antoine de Saint-Exupéry",
+        "publicationDate": "1943-04-06T00:00:00.000Z",
+        "description": "Um clássico infantil que aborda temas profundos sobre a vida e a humanidade.",
+        "genres": ["Infantil", "Fábula"],
+        "numberOfPages": 96,
+        "value": 18.00
+      },
+      {
+        "id": 6,
+        "title": "Crime e Castigo",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Uma exploração profunda da mente criminosa e as ramificações morais de um ato de assassinato.",
+        "genres": ["Ficção", "Clássico"],
+        "numberOfPages": 671,
+        "value": 29.90
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "saleDate": "2024-08-04",
+    "totalValue": 42.00,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.00
+      },
+      {
+        "id": 8,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "saleDate": "2024-08-05",
+    "totalValue": 38.00,
+    "books": [
+      {
+        "id": 9,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Uma distopia sobre um futuro totalitário.",
+        "genres": ["Distopia", "Ficção Política"],
+        "numberOfPages": 328,
+        "value": 22.90
+      },
+      {
+        "id": 10,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publicationDate": "1813-01-28T00:00:00.000Z",
+        "description": "Um romance clássico sobre amor e sociedade na Inglaterra do século XIX.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 279,
+        "value": 19.00
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "saleDate": "2024-08-06",
+    "totalValue": 40.00,
+    "books": [
+      {
+        "id": 11,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publicationDate": "1925-04-10T00:00:00.000Z",
+        "description": "Um retrato da era do jazz nos Estados Unidos, narrado através dos olhos do milionário Jay Gatsby.",
+        "genres": ["Clássico", "Tragédia"],
+        "numberOfPages": 218,
+        "value": 21.00
+      },
+      {
+        "id": 12,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "saleDate": "2024-08-07",
+    "totalValue": 38.00,
+    "books": [
+      {
+        "id": 13,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publicationDate": "1951-07-16T00:00:00.000Z",
+        "description": "Um clássico da literatura americana que narra a jornada de Holden Caulfield pela cidade de Nova York.",
+        "genres": ["Ficção Literária"],
+        "numberOfPages": 277,
+        "value": 19.50
+      },
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.50
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "saleDate": "2024-08-08",
+    "totalValue": 37.00,
+    "books": [
+      {
+        "id": 15,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publicationDate": "1932-01-01T00:00:00.000Z",
+        "description": "Uma distopia futurista que explora uma sociedade controlada pelo governo e a tecnologia.",
+        "genres": ["Distopia", "Ficção Científica"],
+        "numberOfPages": 311,
+        "value": 18.50
+      },
+      {
+        "id": 16,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "saleDate": "2024-08-09",
+    "totalValue": 35.00,
+    "books": [
+      {
+        "id": 17,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1869-01-01T00:00:00.000Z",
+        "description": "Um épico que narra a história de cinco famílias aristocráticas russas durante as Guerras Napoleônicas.",
+        "genres": ["Ficção Histórica", "Épico"],
+        "numberOfPages": 1225,
+        "value": 35.00
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "saleDate": "2024-08-10",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 18,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1954-10-20T00:00:00.000Z",
+        "description": "Uma trilogia de fantasia épica que segue a jornada de Frodo Bolseiro para destruir o Um Anel.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 1178,
+        "value": 38.00
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "saleDate": "2024-08-11",
+    "totalValue": 27.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Um estudo psicológico de um estudante atormentado que comete um assassinato.",
+        "genres": ["Romance Filosófico", "Romance Psicológico"],
+        "numberOfPages": 551,
+        "value": 27.00
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "saleDate": "2024-08-12",
+    "totalValue": 32.00,
+    "books": [
+      {
+        "id": 20,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1877-01-01T00:00:00.000Z",
+        "description": "Um retrato da sociedade russa aristocrática e um estudo sobre adultério e suas consequências.",
+        "genres": ["Ficção Realista", "Romance"],
+        "numberOfPages": 864,
+        "value": 32.00
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "saleDate": "2024-08-13",
+    "totalValue": 37.50,
+    "books": [
+      {
+        "id": 21,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publicationDate": "0008-01-01T00:00:00.000Z",
+        "description": "Um poema épico grego que narra a jornada de Odisseu para voltar para casa após a Guerra de Troia.",
+        "genres": ["Épico"],
+        "numberOfPages": 374,
+        "value": 18.00
+      },
+      {
+        "id": 22,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1880-01-01T00:00:00.000Z",
+        "description": "Um complexo romance que explora questões morais e espirituais através da história de três irmãos.",
+        "genres": ["Romance Filosófico", "Tragédia"],
+        "numberOfPages": 796,
+        "value": 31.00
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "saleDate": "2024-08-14",
+    "totalValue": 19.00,
+    "books": [
+      {
+        "id": 23,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publicationDate": "1818-01-01T00:00:00.000Z",
+        "description": "Um romance gótico que conta a história do cientista Victor Frankenstein e sua criatura.",
+        "genres": ["Ficção Gótica", "Ficção Científica"],
+        "numberOfPages": 280,
+        "value": 19.00
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "saleDate": "2024-08-15",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 24,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publicationDate": "1884-12-10T00:00:00.000Z",
+        "description": "As aventuras de Huck Finn, um garoto do Mississippi, e Jim, um fugitivo escravo.",
+        "genres": ["Aventura", "Sátira"],
+        "numberOfPages": 366,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "saleDate": "2024-08-16",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 25,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "publicationDate": "1847-10-16T00:00:00.000Z",
+        "description": "A história de uma jovem órfã que se torna governanta e se apaixona pelo enigmático Sr. Rochester.",
+        "genres": ["Ficção Gótica", "Romance"],
+        "numberOfPages": 532,
+        "value": 28.00
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "saleDate": "2024-08-17",
+    "totalValue": 38.00,
+    "books": [
+      {
+        "id": 18,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1954-10-20T00:00:00.000Z",
+        "description": "Uma trilogia de fantasia épica que segue a jornada de Frodo Bolseiro para destruir o Um Anel.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 1178,
+        "value": 38.00
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "saleDate": "2024-08-18",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 12,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "saleDate": "2024-08-19",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 24,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publicationDate": "1884-12-10T00:00:00.000Z",
+        "description": "As aventuras de Huck Finn, um garoto do Mississippi, e Jim, um fugitivo escravo.",
+        "genres": ["Aventura", "Sátira"],
+        "numberOfPages": 366,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "saleDate": "2024-08-20",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.00
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "saleDate": "2024-08-21",
+    "totalValue": 27.50,
+    "books": [
+      {
+        "id": 8,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "saleDate": "2024-08-22",
+    "totalValue": 19.00,
+    "books": [
+      {
+        "id": 23,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publicationDate": "1818-01-01T00:00:00.000Z",
+        "description": "Um romance gótico que conta a história do cientista Victor Frankenstein e sua criatura.",
+        "genres": ["Ficção Gótica", "Ficção Científica"],
+        "numberOfPages": 280,
+        "value": 19.00
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "saleDate": "2024-08-23",
+    "totalValue": 21.00,
+    "books": [
+      {
+        "id": 11,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publicationDate": "1925-04-10T00:00:00.000Z",
+        "description": "Um retrato da era do jazz nos Estados Unidos, narrado através dos olhos do milionário Jay Gatsby.",
+        "genres": ["Clássico", "Tragédia"],
+        "numberOfPages": 218,
+        "value": 21.00
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "saleDate": "2024-08-24",
+    "totalValue": 32.00,
+    "books": [
+      {
+        "id": 20,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1877-01-01T00:00:00.000Z",
+        "description": "Um retrato da sociedade russa aristocrática e um estudo sobre adultério e suas consequências.",
+        "genres": ["Ficção Realista", "Romance"],
+        "numberOfPages": 864,
+        "value": 32.00
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "saleDate": "2024-08-25",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 15,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publicationDate": "1932-01-01T00:00:00.000Z",
+        "description": "Uma distopia futurista que explora uma sociedade controlada pelo governo e a tecnologia.",
+        "genres": ["Distopia", "Ficção Científica"],
+        "numberOfPages": 311,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "saleDate": "2024-08-26",
+    "totalValue": 19.50,
+    "books": [
+      {
+        "id": 13,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publicationDate": "1951-07-16T00:00:00.000Z",
+        "description": "Um clássico da literatura americana que narra a jornada de Holden Caulfield pela cidade de Nova York.",
+        "genres": ["Ficção Literária"],
+        "numberOfPages": 277,
+        "value": 19.50
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "saleDate": "2024-08-27",
+    "totalValue": 29.90,
+    "books": [
+      {
+        "id": 6,
+        "title": "Crime e Castigo",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Uma exploração profunda da mente criminosa e as ramificações morais de um ato de assassinato.",
+        "genres": ["Ficção", "Clássico"],
+        "numberOfPages": 671,
+        "value": 29.90
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "saleDate": "2024-08-28",
+    "totalValue": 21.50,
+    "books": [
+      {
+        "id": 3,
+        "title": "O Alquimista",
+        "author": "Paulo Coelho",
+        "publicationDate": "1988-05-01T00:00:00.000Z",
+        "description": "Uma fábula sobre seguir seus sonhos e encontrar seu destino.",
+        "genres": ["Ficção", "Autoajuda"],
+        "numberOfPages": 208,
+        "value": 21.50
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "saleDate": "2024-08-29",
+    "totalValue": 18.00,
+    "books": [
+      {
+        "id": 21,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publicationDate": "0008-01-01T00:00:00.000Z",
+        "description": "A épica jornada de Odisseu para retornar para casa após a Guerra de Troia.",
+        "genres": ["Épico", "Clássico"],
+        "numberOfPages": 304,
+        "value": 18.00
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "saleDate": "2024-08-30",
+    "totalValue": 26.00,
+    "books": [
+      {
+        "id": 9,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "publicationDate": "1890-07-01T00:00:00.000Z",
+        "description": "A história de Dorian Gray, um jovem que deseja permanecer jovem e belo enquanto seu retrato envelhece.",
+        "genres": ["Romance", "Gótico"],
+        "numberOfPages": 254,
+        "value": 26.00
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "saleDate": "2024-08-31",
+    "totalValue": 23.00,
+    "books": [
+      {
+        "id": 17,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publicationDate": "1813-01-28T00:00:00.000Z",
+        "description": "Uma análise perspicaz da sociedade inglesa do início do século XIX através da história de Elizabeth Bennet e Mr. Darcy.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 279,
+        "value": 23.00
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "saleDate": "2024-09-01",
+    "totalValue": 30.00,
+    "books": [
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "A aventura de Bilbo Bolseiro em uma jornada para ajudar anões a recuperar seu reino.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 30.00
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "saleDate": "2024-09-02",
+    "totalValue": 29.00,
+    "books": [
+      {
+        "id": 22,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publicationDate": "1951-07-16T00:00:00.000Z",
+        "description": "A narração de Holden Caulfield, um adolescente desiludido, enquanto ele tenta encontrar seu lugar na sociedade.",
+        "genres": ["Ficção Literária"],
+        "numberOfPages": 277,
+        "value": 29.00
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "saleDate": "2024-09-03",
+    "totalValue": 22.50,
+    "books": [
+      {
+        "id": 10,
+        "title": "Wuthering Heights",
+        "author": "Emily Brontë",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Um romance gótico que explora temas de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Gótico"],
+        "numberOfPages": 416,
+        "value": 22.50
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "saleDate": "2024-09-04",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 5,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "publicationDate": "1960-07-11T00:00:00.000Z",
+        "description": "A história de Scout Finch e seu pai, Atticus, lutando contra o racismo na década de 1930.",
+        "genres": ["Ficção", "Drama"],
+        "numberOfPages": 281,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "saleDate": "2024-09-05",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1880-11-01T00:00:00.000Z",
+        "description": "Um exame profundo das questões de moralidade e fé através da história dos irmãos Karamazov.",
+        "genres": ["Ficção", "Clássico"],
+        "numberOfPages": 796,
+        "value": 28.00
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "saleDate": "2024-09-06",
+    "totalValue": 25.00,
+    "books": [
+      {
+        "id": 16,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publicationDate": "1925-04-10T00:00:00.000Z",
+        "description": "O retrato de uma era de extravagância e decadência através dos olhos de Jay Gatsby.",
+        "genres": ["Ficção", "Clássico"],
+        "numberOfPages": 180,
+        "value": 25.00
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "saleDate": "2024-09-07",
+    "totalValue": 21.00,
+    "books": [
+      {
+        "id": 25,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "publicationDate": "2003-03-18T00:00:00.000Z",
+        "description": "Um thriller que explora segredos antigos e enigmas em torno de uma famosa pintura.",
+        "genres": ["Thriller", "Mistério"],
+        "numberOfPages": 489,
+        "value": 21.00
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "saleDate": "2024-09-08",
+    "totalValue": 30.00,
+    "books": [
+      {
+        "id": 26,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "publicationDate": "1977-01-28T00:00:00.000Z",
+        "description": "Um thriller psicológico sobre um homem e sua família em um hotel isolado e assombrado.",
+        "genres": ["Horror", "Psicológico"],
+        "numberOfPages": 447,
+        "value": 30.00
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "saleDate": "2024-09-09",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 27,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "publicationDate": "1985-09-01T00:00:00.000Z",
+        "description": "Uma distopia que examina a opressão das mulheres em uma sociedade totalitária.",
+        "genres": ["Distopia", "Ficção Científica"],
+        "numberOfPages": 311,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "saleDate": "2024-09-10",
+    "totalValue": 18.00,
+    "books": [
+      {
+        "id": 28,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "publicationDate": "1988-05-01T00:00:00.000Z",
+        "description": "A jornada de um jovem pastor em busca de seu destino.",
+        "genres": ["Ficção", "Autoajuda"],
+        "numberOfPages": 208,
+        "value": 18.00
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "saleDate": "2024-09-15",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 6,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publicationDate": "1951-07-16T00:00:00.000Z",
+        "description": "A história de Holden Caulfield enquanto ele busca sentido em sua vida.",
+        "genres": ["Ficção Literária"],
+        "numberOfPages": 277,
+        "value": 24.00
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "saleDate": "2024-09-17",
+    "totalValue": 27.50,
+    "books": [
+      {
+        "id": 7,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "saleDate": "2024-09-20",
+    "totalValue": 31.00,
+    "books": [
+      {
+        "id": 10,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "publicationDate": "1813-01-28T00:00:00.000Z",
+        "description": "Um romance sobre a sociedade e o amor na Inglaterra do século XIX.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 279,
+        "value": 31.00
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "saleDate": "2024-09-22",
+    "totalValue": 19.50,
+    "books": [
+      {
+        "id": 12,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publicationDate": "1925-04-10T00:00:00.000Z",
+        "description": "Um retrato da era do jazz e da decadência dos anos 1920.",
+        "genres": ["Clássico", "Tragédia"],
+        "numberOfPages": 218,
+        "value": 19.50
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "saleDate": "2024-09-25",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 11,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "saleDate": "2024-09-28",
+    "totalValue": 27.00,
+    "books": [
+      {
+        "id": 13,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "publicationDate": "1932-01-01T00:00:00.000Z",
+        "description": "Uma distopia sobre um futuro controlado por tecnologia e governantes.",
+        "genres": ["Distopia", "Ficção Científica"],
+        "numberOfPages": 311,
+        "value": 27.00
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "saleDate": "2024-10-01",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 15,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "A aventura de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "saleDate": "2024-10-03",
+    "totalValue": 35.00,
+    "books": [
+      {
+        "id": 17,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1869-01-01T00:00:00.000Z",
+        "description": "Uma narrativa épica sobre as Guerras Napoleônicas e cinco famílias russas.",
+        "genres": ["Ficção Histórica", "Épico"],
+        "numberOfPages": 1225,
+        "value": 35.00
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "saleDate": "2024-10-05",
+    "totalValue": 23.00,
+    "books": [
+      {
+        "id": 18,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1954-10-20T00:00:00.000Z",
+        "description": "A trilogia épica sobre a jornada para destruir o Um Anel.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 1178,
+        "value": 23.00
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "saleDate": "2024-10-08",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "A história de um jovem estudante atormentado por um crime que cometeu.",
+        "genres": ["Romance Filosófico", "Romance Psicológico"],
+        "numberOfPages": 551,
+        "value": 28.00
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "saleDate": "2024-10-10",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 22,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1880-01-01T00:00:00.000Z",
+        "description": "Um romance sobre a luta moral e espiritual dos irmãos Karamazov.",
+        "genres": ["Romance Filosófico", "Tragédia"],
+        "numberOfPages": 796,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "saleDate": "2024-10-12",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 23,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publicationDate": "1818-01-01T00:00:00.000Z",
+        "description": "A história de Victor Frankenstein e sua criatura, explorando temas de criação e responsabilidade.",
+        "genres": ["Ficção Gótica", "Ficção Científica"],
+        "numberOfPages": 280,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "saleDate": "2024-10-15",
+    "totalValue": 21.50,
+    "books": [
+      {
+        "id": 24,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publicationDate": "1884-12-10T00:00:00.000Z",
+        "description": "A jornada de Huck Finn e Jim pelo rio Mississippi.",
+        "genres": ["Aventura", "Sátira"],
+        "numberOfPages": 366,
+        "value": 21.50
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "saleDate": "2024-10-18",
+    "totalValue": 19.90,
+    "books": [
+      {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Uma distopia sobre um futuro totalitário.",
+        "genres": ["Distopia", "Ficção Política"],
+        "numberOfPages": 328,
+        "value": 19.90
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "saleDate": "2024-10-20",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.00
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "saleDate": "2024-10-22",
+    "totalValue": 27.50,
+    "books": [
+      {
+        "id": 8,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "saleDate": "2024-10-25",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "saleDate": "2024-10-28",
+    "totalValue": 31.00,
+    "books": [
+      {
+        "id": 20,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1877-01-01T00:00:00.000Z",
+        "description": "Um retrato da sociedade russa aristocrática e um estudo sobre adultério e suas consequências.",
+        "genres": ["Ficção Realista", "Romance"],
+        "numberOfPages": 864,
+        "value": 31.00
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "saleDate": "2024-11-01",
+    "totalValue": 23.00,
+    "books": [
+      {
+        "id": 9,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Uma distopia sobre um futuro totalitário.",
+        "genres": ["Distopia", "Ficção Política"],
+        "numberOfPages": 328,
+        "value": 23.00
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "saleDate": "2024-11-03",
+    "totalValue": 19.00,
+    "books": [
+      {
+        "id": 23,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publicationDate": "1818-01-01T00:00:00.000Z",
+        "description": "Um romance gótico sobre o cientista Victor Frankenstein e sua criatura.",
+        "genres": ["Ficção Gótica", "Ficção Científica"],
+        "numberOfPages": 280,
+        "value": 19.00
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "saleDate": "2024-11-05",
+    "totalValue": 18.00,
+    "books": [
+      {
+        "id": 21,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publicationDate": "0008-01-01T00:00:00.000Z",
+        "description": "Um poema épico grego sobre a jornada de Odisseu.",
+        "genres": ["Épico"],
+        "numberOfPages": 374,
+        "value": 18.00
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "saleDate": "2024-11-08",
+    "totalValue": 27.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Um estudo psicológico de um estudante atormentado por um crime.",
+        "genres": ["Romance Filosófico", "Romance Psicológico"],
+        "numberOfPages": 551,
+        "value": 27.00
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "saleDate": "2024-11-10",
+    "totalValue": 21.50,
+    "books": [
+      {
+        "id": 24,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publicationDate": "1884-12-10T00:00:00.000Z",
+        "description": "As aventuras de Huck Finn e Jim pelo rio Mississippi.",
+        "genres": ["Aventura", "Sátira"],
+        "numberOfPages": 366,
+        "value": 21.50
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "saleDate": "2024-11-12",
+    "totalValue": 20.50,
+    "books": [
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "A jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.50
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "saleDate": "2024-11-15",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 25,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "publicationDate": "1847-10-16T00:00:00.000Z",
+        "description": "A história de uma jovem órfã que se torna governanta e se apaixona pelo enigmático Sr. Rochester.",
+        "genres": ["Ficção Gótica", "Romance"],
+        "numberOfPages": 532,
+        "value": 28.00
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "saleDate": "2024-11-18",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 15,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "saleDate": "2024-11-20",
+    "totalValue": 21.00,
+    "books": [
+      {
+        "id": 11,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "publicationDate": "1925-04-10T00:00:00.000Z",
+        "description": "Um retrato da era do jazz nos Estados Unidos, narrado através dos olhos do milionário Jay Gatsby.",
+        "genres": ["Clássico", "Tragédia"],
+        "numberOfPages": 218,
+        "value": 21.00
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "saleDate": "2024-11-22",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 12,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "saleDate": "2024-11-25",
+    "totalValue": 27.50,
+    "books": [
+      {
+        "id": 8,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "saleDate": "2024-12-01",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.00
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "saleDate": "2024-12-03",
+    "totalValue": 20.50,
+    "books": [
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.50
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "saleDate": "2024-12-05",
+    "totalValue": 19.50,
+    "books": [
+      {
+        "id": 13,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "publicationDate": "1951-07-16T00:00:00.000Z",
+        "description": "Um clássico da literatura americana que narra a jornada de Holden Caulfield pela cidade de Nova York.",
+        "genres": ["Ficção Literária"],
+        "numberOfPages": 277,
+        "value": 19.50
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "saleDate": "2024-12-07",
+    "totalValue": 29.90,
+    "books": [
+      {
+        "id": 6,
+        "title": "Crime e Castigo",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Uma exploração profunda da mente criminosa e as ramificações morais de um ato de assassinato.",
+        "genres": ["Ficção", "Clássico"],
+        "numberOfPages": 671,
+        "value": 29.90
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "saleDate": "2024-12-10",
+    "totalValue": 18.00,
+    "books": [
+      {
+        "id": 21,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publicationDate": "0008-01-01T00:00:00.000Z",
+        "description": "Um poema épico grego que narra a jornada de Odisseu.",
+        "genres": ["Épico"],
+        "numberOfPages": 374,
+        "value": 18.00
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "saleDate": "2024-12-12",
+    "totalValue": 32.00,
+    "books": [
+      {
+        "id": 20,
+        "title": "Anna Karenina",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1877-01-01T00:00:00.000Z",
+        "description": "Um retrato da sociedade russa aristocrática e um estudo sobre adultério e suas consequências.",
+        "genres": ["Ficção Realista", "Romance"],
+        "numberOfPages": 864,
+        "value": 32.00
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "saleDate": "2024-12-15",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 5,
+        "title": "O Pequeno Príncipe",
+        "author": "Antoine de Saint-Exupéry",
+        "publicationDate": "1943-04-06T00:00:00.000Z",
+        "description": "Um clássico infantil que aborda temas profundos sobre a vida e a humanidade.",
+        "genres": ["Infantil", "Fábula"],
+        "numberOfPages": 96,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "saleDate": "2024-12-18",
+    "totalValue": 21.50,
+    "books": [
+      {
+        "id": 3,
+        "title": "O Alquimista",
+        "author": "Paulo Coelho",
+        "publicationDate": "1988-05-01T00:00:00.000Z",
+        "description": "Uma fábula sobre seguir seus sonhos e encontrar seu destino.",
+        "genres": ["Ficção", "Autoajuda"],
+        "numberOfPages": 208,
+        "value": 21.50
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "saleDate": "2024-12-20",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 15,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "saleDate": "2024-12-22",
+    "totalValue": 27.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Um estudo psicológico de um estudante atormentado por um crime.",
+        "genres": ["Romance Filosófico", "Romance Psicológico"],
+        "numberOfPages": 551,
+        "value": 27.00
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "saleDate": "2024-12-25",
+    "totalValue": 25.00,
+    "books": [
+      {
+        "id": 2,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Um clássico distópico que retrata uma sociedade totalitária e vigilante.",
+        "genres": ["Ficção Científica", "Distopia"],
+        "numberOfPages": 328,
+        "value": 25.00
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "saleDate": "2024-12-27",
+    "totalValue": 22.90,
+    "books": [
+      {
+        "id": 9,
+        "title": "1984",
+        "author": "George Orwell",
+        "publicationDate": "1949-06-08T00:00:00.000Z",
+        "description": "Uma distopia sobre um futuro totalitário.",
+        "genres": ["Distopia", "Ficção Política"],
+        "numberOfPages": 328,
+        "value": 22.90
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "saleDate": "2024-12-30",
+    "totalValue": 19.00,
+    "books": [
+      {
+        "id": 23,
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "publicationDate": "1818-01-01T00:00:00.000Z",
+        "description": "Um romance gótico que conta a história do cientista Victor Frankenstein e sua criatura.",
+        "genres": ["Ficção Gótica", "Ficção Científica"],
+        "numberOfPages": 280,
+        "value": 19.00
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "saleDate": "2025-01-02",
+    "totalValue": 28.00,
+    "books": [
+      {
+        "id": 25,
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "publicationDate": "1847-10-16T00:00:00.000Z",
+        "description": "A história de uma jovem órfã que se torna governanta e se apaixona pelo enigmático Sr. Rochester.",
+        "genres": ["Ficção Gótica", "Romance"],
+        "numberOfPages": 532,
+        "value": 28.00
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "saleDate": "2025-01-05",
+    "totalValue": 35.00,
+    "books": [
+      {
+        "id": 17,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "publicationDate": "1869-01-01T00:00:00.000Z",
+        "description": "Um épico que narra a história de cinco famílias aristocráticas russas durante as Guerras Napoleônicas.",
+        "genres": ["Ficção Histórica", "Épico"],
+        "numberOfPages": 1225,
+        "value": 35.00
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "saleDate": "2025-01-08",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 15,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "saleDate": "2025-01-10",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.00
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "saleDate": "2025-01-12",
+    "totalValue": 19.90,
+    "books": [
+      {
+        "id": 1,
+        "title": "Dom Casmurro",
+        "author": "Machado de Assis",
+        "publicationDate": "1899-02-02T00:00:00.000Z",
+        "description": "Um dos romances mais famosos de Machado de Assis, narrando a história de Bentinho e Capitu.",
+        "genres": ["Romance", "Literatura Brasileira"],
+        "numberOfPages": 256,
+        "value": 19.90
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "saleDate": "2025-01-15",
+    "totalValue": 27.00,
+    "books": [
+      {
+        "id": 19,
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1866-01-01T00:00:00.000Z",
+        "description": "Um estudo psicológico de um estudante atormentado por um crime.",
+        "genres": ["Romance Filosófico", "Romance Psicológico"],
+        "numberOfPages": 551,
+        "value": 27.00
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "saleDate": "2025-01-18",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 12,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "saleDate": "2025-01-20",
+    "totalValue": 18.00,
+    "books": [
+      {
+        "id": 21,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "publicationDate": "0008-01-01T00:00:00.000Z",
+        "description": "Um poema épico grego que narra a jornada de Odisseu.",
+        "genres": ["Épico"],
+        "numberOfPages": 374,
+        "value": 18.00
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "saleDate": "2025-01-22",
+    "totalValue": 21.50,
+    "books": [
+      {
+        "id": 3,
+        "title": "O Alquimista",
+        "author": "Paulo Coelho",
+        "publicationDate": "1988-05-01T00:00:00.000Z",
+        "description": "Uma fábula sobre seguir seus sonhos e encontrar seu destino.",
+        "genres": ["Ficção", "Autoajuda"],
+        "numberOfPages": 208,
+        "value": 21.50
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "saleDate": "2025-01-25",
+    "totalValue": 20.50,
+    "books": [
+      {
+        "id": 14,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 20.50
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "saleDate": "2025-02-01",
+    "totalValue": 24.50,
+    "books": [
+      {
+        "id": 7,
+        "title": "O Morro dos Ventos Uivantes",
+        "author": "Emily Bronte",
+        "publicationDate": "1847-12-01T00:00:00.000Z",
+        "description": "Uma trágica história de amor e vingança nas charnecas inglesas.",
+        "genres": ["Romance", "Clássico"],
+        "numberOfPages": 416,
+        "value": 24.50
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "saleDate": "2025-02-05",
+    "totalValue": 22.00,
+    "books": [
+      {
+        "id": 12,
+        "title": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "publicationDate": "1997-06-26T00:00:00.000Z",
+        "description": "O primeiro livro da série Harry Potter, onde Harry descobre seu destino como um bruxo.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 223,
+        "value": 22.00
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "saleDate": "2025-02-10",
+    "totalValue": 27.50,
+    "books": [
+      {
+        "id": 8,
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "publicationDate": "1851-10-18T00:00:00.000Z",
+        "description": "A épica jornada do capitão Ahab em busca da baleia branca.",
+        "genres": ["Aventura", "Clássico"],
+        "numberOfPages": 635,
+        "value": 27.50
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "saleDate": "2025-02-12",
+    "totalValue": 18.50,
+    "books": [
+      {
+        "id": 15,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "publicationDate": "1937-09-21T00:00:00.000Z",
+        "description": "Uma jornada épica de Bilbo Bolseiro em busca do tesouro guardado pelo dragão Smaug.",
+        "genres": ["Fantasia"],
+        "numberOfPages": 310,
+        "value": 18.50
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "saleDate": "2025-02-15",
+    "totalValue": 31.00,
+    "books": [
+      {
+        "id": 22,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "publicationDate": "1880-01-01T00:00:00.000Z",
+        "description": "Um complexo romance que explora questões morais e espirituais através da história de três irmãos.",
+        "genres": ["Romance Filosófico", "Tragédia"],
+        "numberOfPages": 796,
+        "value": 31.00
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "saleDate": "2025-02-20",
+    "totalValue": 20.00,
+    "books": [
+      {
+        "id": 24,
+        "title": "The Adventures of Huckleberry Finn",
+        "author": "Mark Twain",
+        "publicationDate": "1884-12-10T00:00:00.000Z",
+        "description": "As aventuras de Huck Finn, um garoto do Mississippi, e Jim, um fugitivo escravo.",
+        "genres": ["Aventura", "Sátira"],
+        "numberOfPages": 366,
+        "value": 20.00
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "saleDate": "2025-02-22",
+    "totalValue": 24.00,
+    "books": [
+      {
+        "id": 4,
+        "title": "A Revolução dos Bichos",
+        "author": "George Orwell",
+        "publicationDate": "1945-08-17T00:00:00.000Z",
+        "description": "Uma sátira política sobre a Revolução Russa e o regime soviético.",
+        "genres": ["Fábula", "Política"],
+        "numberOfPages": 112,
+        "value": 24.00
+      }
+    ]
+  }
+]

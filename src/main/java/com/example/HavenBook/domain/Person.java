@@ -6,17 +6,22 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.swing.*;
-
+/**
+ * Representa uma pessoa com um nome, que é uma especialização da classe {@link Entity}.
+ */
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class Person extends Entity{
+public class Person {
     private int id;
     private String name;
 
+    /**
+     * Construtor para criar uma pessoa com o nome fornecido.
+     *
+     * @param name Nome da pessoa.
+     */
     public Person(String name) {
         this.setName(name);
     }

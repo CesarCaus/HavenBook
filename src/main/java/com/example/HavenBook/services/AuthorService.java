@@ -19,6 +19,10 @@ import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Serviço para gerenciar os autores, incluindo operações de leitura, adição, atualização e exclusão de autores
+ * armazenados em um arquivo JSON.
+ */
 @Service
 @PropertySource("classpath:application.properties")
 public class AuthorService implements IAuthorService {
@@ -31,12 +35,21 @@ public class AuthorService implements IAuthorService {
     private List<Author> authors;
     private int nextId;
 
+    /**
+     * Construtor para o serviço {@code AuthorService}.
+     *
+     * @param resourceLoader O carregador de recursos para obter o caminho absoluto do arquivo JSON.
+     * @param jsonFilePath   O caminho relativo para o arquivo JSON que contém os autores.
+     */
     @Autowired
     public AuthorService(ResourceLoader resourceLoader, @Value("static/authors.json") String jsonFilePath) {
         this.resourceLoader = resourceLoader;
         this.absoluteJsonFilePath = getAbsolutePath(jsonFilePath);
     }
 
+    /**
+     * Inicializa o serviço carregando os autores do arquivo JSON e definindo o próximo ID disponível.
+     */
     @PostConstruct
     public void init() {
         this.authors = getAuthorsFromJson();
@@ -47,6 +60,13 @@ public class AuthorService implements IAuthorService {
         }
     }
 
+    /**
+     * Obtém o caminho absoluto do arquivo JSON a partir do caminho relativo fornecido.
+     *
+     * @param relativePath O caminho relativo do arquivo JSON.
+     * @return O caminho absoluto do arquivo JSON.
+     * @throws RuntimeException Se ocorrer um erro ao obter o caminho absoluto.
+     */
     private String getAbsolutePath(String relativePath) {
         try {
             Resource resource = resourceLoader.getResource("classpath:" + relativePath);
@@ -57,6 +77,12 @@ public class AuthorService implements IAuthorService {
         }
     }
 
+    /**
+     * Carrega a lista de autores do arquivo JSON.
+     *
+     * @return Uma lista de autores carregados do arquivo JSON.
+     * @throws RuntimeException Se ocorrer um erro ao ler o arquivo JSON.
+     */
     public List<Author> getAuthorsFromJson() {
         try {
             ObjectMapper mapper = new ObjectMapper();
@@ -71,17 +97,34 @@ public class AuthorService implements IAuthorService {
         }
     }
 
+    /**
+     * Obtém um autor pelo ID.
+     *
+     * @param id O ID do autor a ser recuperado.
+     * @return O autor correspondente ao ID fornecido ou {@code null} se não for encontrado.
+     */
     public Author getAuthorById(int id) {
         Optional<Author> author = authors.stream().filter(a -> a.getId() == id).findFirst();
         return author.orElse(null);
     }
 
+    /**
+     * Adiciona um novo autor à lista e salva os autores no arquivo JSON.
+     *
+     * @param newAuthor O novo autor a ser adicionado.
+     */
     public synchronized void addAuthor(Author newAuthor) {
         newAuthor.setId(nextId++);
         authors.add(newAuthor);
         saveAuthorsToJson();
     }
 
+    /**
+     * Atualiza um autor existente com base no ID fornecido e salva os autores no arquivo JSON.
+     *
+     * @param id              O ID do autor a ser atualizado.
+     * @param updatedAuthor   O autor atualizado.
+     */
     public synchronized void updateAuthor(int id, Author updatedAuthor) {
         for (int i = 0; i < authors.size(); i++) {
             if (authors.get(i).getId() == id) {
@@ -93,11 +136,21 @@ public class AuthorService implements IAuthorService {
         }
     }
 
+    /**
+     * Remove um autor com base no ID fornecido e salva os autores no arquivo JSON.
+     *
+     * @param id O ID do autor a ser removido.
+     */
     public synchronized void deleteAuthor(int id) {
         authors.removeIf(author -> author.getId() == id);
         saveAuthorsToJson();
     }
 
+    /**
+     * Salva a lista atual de autores no arquivo JSON.
+     *
+     * @throws RuntimeException Se ocorrer um erro ao salvar o arquivo JSON.
+     */
     private synchronized void saveAuthorsToJson() {
         try {
             ObjectMapper mapper = new ObjectMapper();
