@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Representa uma pessoa com um nome, que é uma especialização da classe {@link Entity}.
+ * Representa uma pessoa com um nome
  */
 @Setter
 @Getter
